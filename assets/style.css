@@ -69,6 +69,15 @@ h2 + h4 { margin-top: 0; }
 .dated time { color: var(--muted); font-weight: 300; white-space: nowrap; font-variant-numeric: lining-nums tabular-nums; }
 .dated { text-wrap: wrap; }
 
+#outside p { margin: 0 0 14px; }
+.poll { display: flex; flex-wrap: wrap; gap: 10px; }
+.poll button {
+  font: inherit; color: var(--text); background: none; cursor: pointer;
+  border: 1px solid var(--line); border-radius: 4px; padding: 2px 14px;
+}
+.poll button:hover { color: var(--link); border-color: var(--link); }
+.poll.done { color: var(--muted); font-weight: 300; }
+
 .foot {
   color: var(--muted); font-size: 16px; font-weight: 300;
   margin: 0; padding: 16px 0 48px;
