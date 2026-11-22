@@ -72,6 +72,7 @@ h2 + h4 { margin-top: 0; }
 #outside p { margin: 0 0 14px; }
 .poll { display: flex; flex-wrap: wrap; gap: 10px; }
 .poll button {
+  -webkit-appearance: none; appearance: none; margin: 0;
   font: inherit; color: var(--text); background: none; cursor: pointer;
   border: 1px solid var(--line); border-radius: 4px; padding: 2px 14px;
 }
